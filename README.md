@@ -16,6 +16,6 @@ Ben's threshold for inclusion is
 - is there a metric that indicates the problem?
 
 If those conditions are true, then there's no need to figure out how to measure the problem.  
-For example, the (Silly Window Syndrome)[https://en.wikipedia.org/wiki/Silly_window_syndrome] can be detected by measuring the window size for a packet.  
-Similarly, (thrashing of virtual memory)[https://en.wikipedia.org/wiki/Thrashing_(computer_science)] is detectable by measuring page faults.
+For example, the [Silly Window Syndrome](https://en.wikipedia.org/wiki/Silly_window_syndrome) can be detected by measuring the window size for a packet.  
+Similarly, [thrashing of virtual memory](https://en.wikipedia.org/wiki/Thrashing_(computer_science)) is detectable by measuring page faults.
 
