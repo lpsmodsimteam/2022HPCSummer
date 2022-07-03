@@ -27,6 +27,7 @@ Similarly, [thrashing of virtual memory](https://en.wikipedia.org/wiki/Thrashing
 Ben isn't clear how to convert from a story to an SST DES model of components and links. 
 
 There is a theoretical model, <https://en.wikipedia.org/wiki/DEVS>, but that doesn't explain how to get from a story/narrative to the mathematical model. 
+Also, Ben hasn't seen practical examples where the use of the mathematical model DEVS informed or improved an implementation. (For example, how does having a DEVS model of the car wash story help?)
 
 Coming up with heuristics for "narrative to DEVS to SST" or "narrative to SST" would be useful.
 
@@ -36,6 +37,5 @@ The default technique seems to be "increase fidelity until outcome doesn't chang
 
 * <https://en.wikipedia.org/wiki/Fallacies_of_distributed_computing>
 * <https://github.com/theanalyst/awesome-distributed-systems>
-* Mathematical model for DES: <https://en.wikipedia.org/wiki/DEVS>
 * great example of distributed system problems: <https://aphyr.com/posts/326-call-me-maybe-chronos>
 * Things I should probably worry about but haven't read yet <https://asatarin.github.io/testing-distributed-systems/>
