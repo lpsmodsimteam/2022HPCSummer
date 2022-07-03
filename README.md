@@ -1,6 +1,6 @@
 # scope of this repo
 
-summary report across the efforts:
+This repo is intended to host a summary report across the efforts:
 - <https://github.com/lpsmodsim/2022HPCSummer-Deadlock>
 - <https://github.com/lpsmodsim/2022HPCSummer-Livelock>
 - <https://github.com/lpsmodsim/2022HPCSummer-CongestiveCollapse/>
@@ -8,7 +8,7 @@ summary report across the efforts:
 - <https://github.com/lpsmodsim/2022HPCSummer-TCPGlobalSynchronization>
 - <https://github.com/lpsmodsim/2022HPCSummer-ThunderingHerd>
 
-# scope of the project 
+# scope of the Summer 2022 project 
 The above list is not comprehensive in terms of design problems for distributed system design. For example,
 - <https://en.wikipedia.org/wiki/Head-of-line_blocking>
 - <https://en.wikipedia.org/wiki/Thrashing_(computer_science)>
@@ -31,3 +31,11 @@ There is a theoretical model, <https://en.wikipedia.org/wiki/DEVS>, but that doe
 Coming up with heuristics for "narrative to DEVS to SST" or "narrative to SST" would be useful.
 
 The default technique seems to be "increase fidelity until outcome doesn't change"
+
+# Additional resources on distributed architecture challenges
+
+* <https://en.wikipedia.org/wiki/Fallacies_of_distributed_computing>
+* <https://github.com/theanalyst/awesome-distributed-systems>
+* Mathematical model for DES: <https://en.wikipedia.org/wiki/DEVS>
+* great example of distributed system problems: <https://aphyr.com/posts/326-call-me-maybe-chronos>
+* Things I should probably worry about but haven't read yet <https://asatarin.github.io/testing-distributed-systems/>
