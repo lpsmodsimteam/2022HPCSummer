@@ -22,6 +22,17 @@ If those conditions are true, then there's no need to figure out how to measure 
 For example, the [Silly Window Syndrome](https://en.wikipedia.org/wiki/Silly_window_syndrome) can be detected by measuring the window size for a packet.  
 Similarly, [thrashing of virtual memory](https://en.wikipedia.org/wiki/Thrashing_(computer_science)) is detectable by measuring page faults.
 
+# intended and actual results
+
+Intended goal: Can we measure the existance of deadlock (or livelock, or other known problems) in a simulation of a distributed system?
+
+actual results: 
+* there are variations of deadlock: system-scale deadlock (everything stops) and component-scale deadlock (a subset of components deadlock)
+* there are theoretical conditions that are necessary for deadlock, but that doesn't indicate what to measure
+* the relation between implementation (in SST), DEVS, and theoretical constraints is uncoupled
+
+# how could next iteration of this effort be more effective?
+
 # tangential outcomes for the summer project
 
 Ben isn't clear how to convert from a story to an SST DES model of components and links. 
