@@ -22,6 +22,13 @@ If those conditions are true, then there's no need to figure out how to measure 
 For example, the [Silly Window Syndrome](https://en.wikipedia.org/wiki/Silly_window_syndrome) can be detected by measuring the window size for a packet.  
 Similarly, [thrashing of virtual memory](https://en.wikipedia.org/wiki/Thrashing_(computer_science)) is detectable by measuring page faults.
 
+
+What level of simulation fidelity matters? The least possible for capturing the relevant behavior. Excess realism of the simulation doesn't change the behavior, so the extra code merely adds opportunities for bugs, extra maintenance, and adds to the reader's burden. 
+
+
+Are these metrics for use in a production system or in simulation? In simulation. 
+
+
 # intended and actual results
 
 Intended goal: Can we measure the existance of deadlock (or livelock, or other known problems) in a simulation of a distributed system?
