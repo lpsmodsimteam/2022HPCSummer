@@ -38,6 +38,15 @@ actual results:
 * there are theoretical conditions that are necessary for deadlock, but that doesn't indicate what to measure
 * the relation between implementation (in SST), DEVS, and theoretical constraints is uncoupled
 
+# Implementation of problems in a Discrete Event Simulator, the Structural Simulation Toolkit (SST)
+
+### Tutorials for SST
+* <https://www.youtube.com/watch?v=ipxoVb2dEcw&list=PLgehegDe4T2y1badxrxcuvIsX42V64t2x>
+
+### SST in Singularity 
+
+<https://github.com/tactcomplabs/sst-containers/blob/main/containers/singularity/sstcore-11.1.0-centos8.def>
+
 # how could next iteration of this effort be more effective?
 
 # tangential outcomes for the summer project
