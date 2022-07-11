@@ -1,4 +1,4 @@
-# scope of this repo
+# Scope of this repo
 
 This repo is intended to host a summary report across the efforts:
 - <https://github.com/lpsmodsim/2022HPCSummer-Deadlock>
@@ -8,7 +8,7 @@ This repo is intended to host a summary report across the efforts:
 - <https://github.com/lpsmodsim/2022HPCSummer-TCPGlobalSynchronization>
 - <https://github.com/lpsmodsim/2022HPCSummer-ThunderingHerd>
 
-# scope of the Summer 2022 project 
+# Scope of the Summer 2022 project 
 The above list is not comprehensive in terms of design problems for distributed system design. For example,
 - <https://en.wikipedia.org/wiki/Head-of-line_blocking>
 - <https://en.wikipedia.org/wiki/Thrashing_(computer_science)>
@@ -29,7 +29,7 @@ What level of simulation fidelity matters? The least possible for capturing the 
 Are these metrics for use in a production system or in simulation? In simulation. 
 
 
-# intended and actual results
+# Intended and actual results
 
 Intended goal: Can we measure the existance of deadlock (or livelock, or other known problems) in a simulation of a distributed system?
 
@@ -37,6 +37,10 @@ actual results:
 * there are variations of deadlock: system-scale deadlock (everything stops) and component-scale deadlock (a subset of components deadlock)
 * there are theoretical conditions that are necessary for deadlock, but that doesn't indicate what to measure
 * the relation between implementation (in SST), DEVS, and theoretical constraints is uncoupled
+
+Themes that emerged:
+* rather than detecting that an infinite loop by waiting forever, look in a temporal window for characteristic patterns
+* system-scale behavior is easier to detect than portions of the system exhibiting the behavior
 
 # Implementation of problems in a Discrete Event Simulator, the Structural Simulation Toolkit (SST)
 
