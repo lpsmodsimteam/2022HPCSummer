@@ -16,12 +16,17 @@
 
 ## sst critiques
 
-* these items were learned via digging through source code. These are vital features that should have examples/more accessible documention.
+* these items were learned via digging through source code/asking a more experienced user. These are vital features that should have examples/more accessible documention.
   * using timeconverter/timelord
   * creating custom event handlers
   * variable port instantiation
+  * using a python dict to instantiate n number of components in the python driver file
+^ including the above on http://sst-simulator.org/sst-website/ would be useful
 
 * compilier errors regarding SST element libraries are often misleading/unhelpful
   * apparently CLANG shows more (useful) info during SST element library errors  
 
 * documentation and examples (even related to HPC models which sandia prioritizes) is lacking
+* http://sst-simulator.org/ is not secure
+* http://sst-simulator.org/SSTDoxygen/12.0.1_docs/html/ is using doxygen version 1.8.5 (from 2013!). There is no search feature.
+* http://sst-simulator.org/sst-website/ is hidden
