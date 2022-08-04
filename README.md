@@ -52,6 +52,7 @@ Themes that emerged:
 <https://github.com/tactcomplabs/sst-containers/blob/main/containers/singularity/sstcore-11.1.0-centos8.def>
 
 # how could next iteration of this effort be more effective?
+see https://github.com/lpsmodsim/2022HPCSummer/blob/main/project_thoughts.md
 
 # tangential outcomes for the summer project
 
