@@ -11,7 +11,7 @@
 * deadlock is hard, livelock is hard
 * if user is interested in pursuing DEVS research, look at [the following research](http://cell-devs.sce.carleton.ca/publications/2013/GWK13/DEVSintro.pdf) for a good introduction on how to use the specification
 * give user info on time series analysis
-* sst element library compilitation errors are misleading and hard to debug, it is extremely more productive to immediately ask for a more experienced sst user to help debug the problem then spend time trying to do it yourself.
+* sst element library compilitation errors are misleading and hard to debug, it is extremely more productive to ask for a more experienced sst user to help debug the problem then spend a lot of time trying to do it yourself.
   *  usually after solving the issue a few times, you will get a feel of what could be wrong with your sst code when you encounter the error again in the future
 
 ## sst critiques
