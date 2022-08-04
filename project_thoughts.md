@@ -21,7 +21,6 @@
   * creating custom event handlers
   * variable port instantiation
   * using a python dict to instantiate n number of components in the python driver file
-^ including the above on http://sst-simulator.org/sst-website/ would be useful
 
 * compilier errors regarding SST element libraries are often misleading/unhelpful
   * apparently CLANG shows more (useful) info during SST element library errors  
